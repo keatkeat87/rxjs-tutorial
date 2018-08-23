@@ -23,6 +23,9 @@ import { BufferToggleComponent } from './buffer-toggle/buffer-toggle.component';
 import { BufferWhenComponent } from './buffer-when/buffer-when.component';
 import { DelayComponent } from './delay/delay.component';
 import { DelayWhenComponent } from './delay-when/delay-when.component';
+import { DebounceComponent } from './debounce/debounce.component';
+import { DebounceTimeComponent } from './debounce-time/debounce-time.component';
+import { ThrottleTimeComponent } from './throttle-time/throttle-time.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +49,10 @@ import { DelayWhenComponent } from './delay-when/delay-when.component';
     BufferToggleComponent,
     BufferWhenComponent,
     DelayComponent,
-    DelayWhenComponent
+    DelayWhenComponent,
+    DebounceComponent,
+    DebounceTimeComponent,
+    ThrottleTimeComponent
   ],
   imports: [
     BrowserModule,

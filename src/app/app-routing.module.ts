@@ -20,6 +20,9 @@ import { BufferToggleComponent } from './buffer-toggle/buffer-toggle.component';
 import { BufferWhenComponent } from './buffer-when/buffer-when.component';
 import { DelayComponent } from './delay/delay.component';
 import { DelayWhenComponent } from './delay-when/delay-when.component';
+import { DebounceComponent } from './debounce/debounce.component';
+import { DebounceTimeComponent } from './debounce-time/debounce-time.component';
+import { ThrottleTimeComponent } from './throttle-time/throttle-time.component';
 
 const routes: Routes = [
   // { path: '', pathMatch: 'full', redirectTo: 'take-until' },
@@ -43,6 +46,9 @@ const routes: Routes = [
   { path: 'buffer-when', component: BufferWhenComponent },
   { path: 'delay', component: DelayComponent },
   { path: 'delay-when', component: DelayWhenComponent },
+  { path: 'debounce-time', component: DebounceTimeComponent },
+  { path: 'debounce', component: DebounceComponent },
+  { path: 'throttle-time', component: ThrottleTimeComponent },
 ];
 
 @NgModule({
