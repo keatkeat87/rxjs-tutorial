@@ -11,6 +11,18 @@ import { ConcatAllComponent } from './concat-all/concat-all.component';
 import { MergeAllComponent } from './merge-all/merge-all.component';
 import { SwitchAllComponent } from './switch-all/switch-all.component';
 import { SkipComponent } from './skip/skip.component';
+import { StartWithComponent } from './start-with/start-with.component';
+import { CombineLatestComponent } from './combine-latest/combine-latest.component';
+import { ZipComponent } from './zip/zip.component';
+import { WithLatestFromComponent } from './with-latest-from/with-latest-from.component';
+import { ScanComponent } from './scan/scan.component';
+import { BufferComponent } from './buffer/buffer.component';
+import { BufferCountComponent } from './buffer-count/buffer-count.component';
+import { BufferTimeComponent } from './buffer-time/buffer-time.component';
+import { BufferToggleComponent } from './buffer-toggle/buffer-toggle.component';
+import { BufferWhenComponent } from './buffer-when/buffer-when.component';
+import { DelayComponent } from './delay/delay.component';
+import { DelayWhenComponent } from './delay-when/delay-when.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +34,19 @@ import { SkipComponent } from './skip/skip.component';
     ConcatAllComponent,
     MergeAllComponent,
     SwitchAllComponent,
-    SkipComponent
+    SkipComponent,
+    StartWithComponent,
+    CombineLatestComponent,
+    ZipComponent,
+    WithLatestFromComponent,
+    ScanComponent,
+    BufferComponent,
+    BufferCountComponent,
+    BufferTimeComponent,
+    BufferToggleComponent,
+    BufferWhenComponent,
+    DelayComponent,
+    DelayWhenComponent
   ],
   imports: [
     BrowserModule,
