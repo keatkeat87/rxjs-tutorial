@@ -30,6 +30,7 @@ import { DistinctUntilChangedComponent } from './distinct-until-changed/distinct
 import { DistinctComponent } from './distinct/distinct.component';
 import { RetryComponent } from './retry/retry.component';
 import { RetryWhenComponent } from './retry-when/retry-when.component';
+import { SubjectComponent } from './subject/subject.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { RetryWhenComponent } from './retry-when/retry-when.component';
     DistinctUntilChangedComponent,
     DistinctComponent,
     RetryComponent,
-    RetryWhenComponent
+    RetryWhenComponent,
+    SubjectComponent
   ],
   imports: [
     BrowserModule,

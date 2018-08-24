@@ -27,6 +27,7 @@ import { DistinctUntilChangedComponent } from './distinct-until-changed/distinct
 import { DistinctComponent } from './distinct/distinct.component';
 import { RetryComponent } from './retry/retry.component';
 import { RetryWhenComponent } from './retry-when/retry-when.component';
+import { SubjectComponent } from './subject/subject.component';
 
 const routes: Routes = [
   // { path: '', pathMatch: 'full', redirectTo: 'take-until' },
@@ -57,6 +58,7 @@ const routes: Routes = [
   { path: 'distinct', component: DistinctComponent },
   { path: 'retry', component: RetryComponent },
   { path: 'retry-when', component: RetryWhenComponent },
+  { path: 'subject', component: SubjectComponent },
 ];
 
 @NgModule({
