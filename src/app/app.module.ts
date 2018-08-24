@@ -26,6 +26,10 @@ import { DelayWhenComponent } from './delay-when/delay-when.component';
 import { DebounceComponent } from './debounce/debounce.component';
 import { DebounceTimeComponent } from './debounce-time/debounce-time.component';
 import { ThrottleTimeComponent } from './throttle-time/throttle-time.component';
+import { DistinctUntilChangedComponent } from './distinct-until-changed/distinct-until-changed.component';
+import { DistinctComponent } from './distinct/distinct.component';
+import { RetryComponent } from './retry/retry.component';
+import { RetryWhenComponent } from './retry-when/retry-when.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +56,11 @@ import { ThrottleTimeComponent } from './throttle-time/throttle-time.component';
     DelayWhenComponent,
     DebounceComponent,
     DebounceTimeComponent,
-    ThrottleTimeComponent
+    ThrottleTimeComponent,
+    DistinctUntilChangedComponent,
+    DistinctComponent,
+    RetryComponent,
+    RetryWhenComponent
   ],
   imports: [
     BrowserModule,

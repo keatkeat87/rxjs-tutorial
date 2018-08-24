@@ -1,6 +1,7 @@
-import { BehaviorSubject, zip } from 'rxjs';
+import { BehaviorSubject, zip, of, interval } from 'rxjs';
 import { Component, OnInit } from '@angular/core';
 import { observer } from '../log';
+import { distinctUntilChanged } from 'rxjs/operators';
 
 @Component({
   selector: 'app-zip',
@@ -32,6 +33,10 @@ export class ZipComponent implements OnInit {
     s1.next('s1: 1');
     s3.next('s3: 1');
 
+
+    // 常用来写 demo
+    let o1 = of('a', 'b', 'b', 'd');
+    zip(interval(1000), o1, (v1, v2) => v2).subscribe(observer);
  
 
   }

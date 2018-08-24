@@ -23,6 +23,10 @@ import { DelayWhenComponent } from './delay-when/delay-when.component';
 import { DebounceComponent } from './debounce/debounce.component';
 import { DebounceTimeComponent } from './debounce-time/debounce-time.component';
 import { ThrottleTimeComponent } from './throttle-time/throttle-time.component';
+import { DistinctUntilChangedComponent } from './distinct-until-changed/distinct-until-changed.component';
+import { DistinctComponent } from './distinct/distinct.component';
+import { RetryComponent } from './retry/retry.component';
+import { RetryWhenComponent } from './retry-when/retry-when.component';
 
 const routes: Routes = [
   // { path: '', pathMatch: 'full', redirectTo: 'take-until' },
@@ -49,6 +53,10 @@ const routes: Routes = [
   { path: 'debounce-time', component: DebounceTimeComponent },
   { path: 'debounce', component: DebounceComponent },
   { path: 'throttle-time', component: ThrottleTimeComponent },
+  { path: 'distinct-until-changed', component: DistinctUntilChangedComponent },
+  { path: 'distinct', component: DistinctComponent },
+  { path: 'retry', component: RetryComponent },
+  { path: 'retry-when', component: RetryWhenComponent },
 ];
 
 @NgModule({
